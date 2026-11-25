@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#25104f"/><stop offset=".48" stop-color="#7c35a9"/><stop offset="1" stop-color="#f06bb4"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ffb7ec" stop-opacity=".95"/><stop offset="1" stop-color="#ff6bd1" stop-opacity="0"/></radialGradient>
+ <linearGradient id="speaker" x2="0" y2="1"><stop stop-color="#f8eaff"/><stop offset=".16" stop-color="#bd8ee8"/><stop offset=".5" stop-color="#51247e"/><stop offset=".85" stop-color="#170d39"/><stop offset="1" stop-color="#b77ee0"/></linearGradient>
+ <radialGradient id="cone"><stop stop-color="#f4caff"/><stop offset=".13" stop-color="#7b47a8"/><stop offset=".5" stop-color="#21113f"/><stop offset=".76" stop-color="#c28eea"/><stop offset="1" stop-color="#3b1d65"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="35"/></filter>
+ <pattern id="stars" width="180" height="150" patternUnits="userSpaceOnUse"><path d="M28 14v18m-9-9h18M124 72v14m-7-7h14M68 122v10m-5-5h10" stroke="#fff" stroke-width="2" opacity=".65"/><circle cx="153" cy="24" r="2.5" fill="#fff" opacity=".8"/></pattern>
+</defs>
+<rect width="1600" height="900" fill="url(#bg)"/>
+<ellipse cx="800" cy="330" rx="650" ry="310" fill="url(#glow)" filter="url(#blur)"/>
+<rect width="1600" height="900" fill="url(#stars)"/>
+<g opacity=".22" fill="#fff"><circle cx="240" cy="240" r="110"/><circle cx="1360" cy="180" r="155"/><circle cx="1100" cy="720" r="190"/></g>
+<g transform="translate(170 170)">
+ <rect x="0" y="0" width="500" height="570" rx="46" fill="#170b32" opacity=".65" stroke="#f8dfff" stroke-width="9"/>
+ <rect x="22" y="22" width="456" height="526" rx="32" fill="url(#speaker)" stroke="#fcecff" stroke-width="5"/>
+ <circle cx="250" cy="210" r="165" fill="#1b1034" stroke="#f7dfff" stroke-width="8"/><circle cx="250" cy="210" r="139" fill="url(#cone)" stroke="#e8c8ff" stroke-width="7"/><circle cx="250" cy="210" r="58" fill="#24113f" stroke="#f7dfff" stroke-width="8"/><circle cx="250" cy="210" r="20" fill="#f4dfff"/>
+ <circle cx="250" cy="430" r="70" fill="#21113b" stroke="#f7dfff" stroke-width="7"/><circle cx="250" cy="430" r="49" fill="url(#cone)"/>
+</g>
+<g transform="translate(900 280)">
+ <rect x="0" y="0" width="500" height="570" rx="46" fill="#170b32" opacity=".65" stroke="#f8dfff" stroke-width="9"/>
+ <rect x="22" y="22" width="456" height="526" rx="32" fill="url(#speaker)" stroke="#fcecff" stroke-width="5"/>
+ <circle cx="250" cy="210" r="165" fill="#1b1034" stroke="#f7dfff" stroke-width="8"/><circle cx="250" cy="210" r="139" fill="url(#cone)" stroke="#e8c8ff" stroke-width="7"/><circle cx="250" cy="210" r="58" fill="#24113f" stroke="#f7dfff" stroke-width="8"/><circle cx="250" cy="210" r="20" fill="#f4dfff"/>
+ <circle cx="250" cy="430" r="70" fill="#21113b" stroke="#f7dfff" stroke-width="7"/><circle cx="250" cy="430" r="49" fill="url(#cone)"/>
+</g>
+<path d="M0 760 Q300 650 600 760T1200 750T1600 730V900H0Z" fill="#250d48" opacity=".52"/>
+</svg>

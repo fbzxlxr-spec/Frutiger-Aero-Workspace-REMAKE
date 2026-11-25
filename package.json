@@ -1,0 +1,9 @@
+{
+  "name": "frutiger-aero-workspace",
+  "version": "13.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=20" },
+  "description": "A fresh, local-first Frutiger Aero desktop workspace"
+}
